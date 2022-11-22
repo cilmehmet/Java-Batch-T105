@@ -3,7 +3,7 @@ package ders32_inheritanceConstructorCall;
 public class DCamry extends BToyota{
 
     DCamry(String pc){
-        super("Deniz");
+        super(Integer.parseInt("Deniz"));
         System.out.println("String parametreli Camry");
     }
 
@@ -25,9 +25,6 @@ public class DCamry extends BToyota{
         DCamry camry1=new DCamry();
         // Parametresiz Araba constructor
         //Parametresiz Toyota Constructor
-
-
-
     }
 }
 
